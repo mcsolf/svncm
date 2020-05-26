@@ -1,0 +1,4 @@
+# Força o comando pull
+git fetch --all
+git reset --hard origin/masternpm
+git pull origin master
