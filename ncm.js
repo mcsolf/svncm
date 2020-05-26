@@ -85,6 +85,7 @@ router.get('/buscacompleta/:uid', verifyJWT, (req, res, next) => {
 router.get('/listacompleta', (req, res, next) => {    
  // const { dbclient}  = req.user
   const pool  = new Pool (conn()); 
+  //teste
   const qry = `select * from ncm`
   pool
   .query(qry)
